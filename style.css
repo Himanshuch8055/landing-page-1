@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;1,500;1,600&family=Montserrat:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wapper {
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+}
+
+#circle {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 99999999999999;
+    pointer-events: none;
+}
+
+#wapper h1 {
+    /* color: white */
+    /* font-weight: bold; */
+    font-size: 500px;
+}
+
+#whitestrip {
+    width: 50%;
+    height: 100px;
+    top: 50%;
+    left: 0;
+    transform: translate(100%, -50%);
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blackcard {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#blackcard p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#lineelem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lineelem h4 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+}
+
+#lineelem .line {
+    width: 200px;
+    height: 2px;
+    margin: 20px;
+    background-color: black;
+}
+
+#lineelem i {
+    font-size: 20px;
+    /* position: absolute; */
+    /* padding-left: 300px; */
+    cursor: pointer;
+}
+
+#whitestrip>h5 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: -700px;
+    /* transform: translate(-500%, -50%); */
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 10px;
+    transform: rotate(-90deg);
+}
